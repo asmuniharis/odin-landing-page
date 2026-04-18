@@ -82,20 +82,19 @@ body{
     align-items: center;
 }
 #beach {
-    background-image: url("/images/kuta.jpg");
-    background-color: red;
+    background-image: url("images/kuta.jpg");
 }
 
 #rice {
-    background-image: url("/images/rice.jpg");
+    background-image: url("images/rice.jpg");
 }
 
 #temple {
-    background-image: url("/images/bali.jpg");
+    background-image: url("images/bali.jpg");
 }
 
 #culture {
-    background-image: url("/images/culture.jpg");
+    background-image: url("images/culture.jpg");
 }
 .item-info-img{
     
@@ -115,6 +114,7 @@ div:has(> blockquote){
         color: #1f2937;
         font-weight: 300px;
         font-style: italic; 
+    padding: 20px;
 }
 
 blockquote p::before{
