@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 15px 80px 40px 80px;
+}
+
+.header-top{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text{
+    font-weight: 900;
+    font-size: 48px;
+    margin:0;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-secondary-text, .header-link-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.main-img{
+    background-image: url("images/bali.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 700px;
+   height: 250px;
+
+}
+
+.btn-signup-top{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.info-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.random-info {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#beach {
+    background-image: url("/images/kuta.jpg");
+    background-color: red;
+}
+
+#rice {
+    background-image: url("/images/rice.jpg");
+}
+
+#temple {
+    background-image: url("/images/bali.jpg");
+}
+
+#culture {
+    background-image: url("/images/culture.jpg");
+}
+.item-info-img{
+    
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border:#3882f6 3px solid;
+}
+
+div:has(> blockquote){
+    background-color: #e5e7eb;
+    /* display: flex;
+    flex-direction: column;*/
+    font-size: 36px;
+        color: #1f2937;
+        font-weight: 300px;
+        font-style: italic; 
+}
+
+blockquote p::before{
+    content:"\201C";
+}
+
+blockquote p::after{
+    content: "\201D";
+}
+
+blockquote + p{
+    text-align: right;
+    font-style:normal;
+    font-weight: bold;
+}
+blockquote footer{
+    margin-top: 10px;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.cat-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #3882f6;
+    padding: 0 80px 20px 80px;
+    margin: 80px 50px;
+    border-radius: 10px;
+}
+
+.cat-header{
+    /* border: #1f2937 solid 1px; */
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+.cat-text{
+    /* border: #1f2937 solid 1px; */
+    margin: 0;
+    /* margin: 0; */
+}
+.btn-signup-bottom{
+    padding: 5px 10px;
+    /* width: 100px; */
+    border: 1px solid white;
+    color: white;
+    background-color: #3882f6;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+ul{
+    list-style: none;    
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 1; */
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
